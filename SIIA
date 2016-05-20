@@ -1,0 +1,30 @@
+create database siia;
+
+use siia;
+
+create table Estudiante (
+
+	IdEstudiante 	int not null primary key auto_increment,
+	Nombre 		 	varchar (25) not null,
+	ApellidoPaterno varchar (25) not null,
+	ApellidoMaterno varchar (25) not null
+
+);
+
+create table Nivel (
+	
+	idNivel 	int not null primary key auto_increment,
+	NumSemestre int,
+	Periodo		varchar(25) not null,
+	Promedio	decimal
+
+);
+
+create table Materia (
+	
+	idMateria 		int not null primary key auto_increment,
+	Clave 			varchar(25) not null,
+	Nombre			varchar(25) not null,
+	Calificacion 	decimal
+
+);
