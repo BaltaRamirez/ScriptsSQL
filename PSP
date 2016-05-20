@@ -3,44 +3,44 @@ use PSP;
 
 create table Estudiantes (
 
-	IdEstudiante 	int not null primary key auto_increment,
+	IdEstudiante 		int not null primary key auto_increment,
 	Nombre 		 	varchar (25) not null,
 	ApellidoPaterno varchar (25) not null,
 	ApellidoMaterno varchar (25) not null,
 	Telefono 		int,
-	FechaNacimiento date
+	FechaNacimiento 	date
 
 );
 
 create table Instructor (
 
-	IdInstructor 		int not null primary key auto_increment,
-    Nombre		 		varchar(25)	not null,
+    IdInstructor 		int not null primary key auto_increment,
+    Nombre		  	varchar(25) not null,
     ApellidoPaterno		varchar(25) not null,
     ApellidoMaterno		varchar(25) not null,
     Telefono			int ,
-    FechaNacimiento     date
+    FechaNacimiento     	date
 
 );
 
 create table Lenguaje_Programacion(
 
-	IdLenguaje_Programacion int not null primary key auto_increment,
-    Nombre					varchar	(45)not null
+    IdLenguaje_Programacion  int not null primary key auto_increment,
+    Nombre		     varchar(45) not null
 
 );
 
 create table Programa (
 
-	IdPrograma	int not null primary key auto_increment,
-    Nombre		varchar(45)
+    IdPrograma	int not null primary key auto_increment,
+    Nombre	varchar(45)
 
 );
 
 create table Defect (
-	IdPSP_Time_Recording_Log int not null primary key auto_increment,
-    Nombre					 varchar(45) not null,
-    Description 			 tinytext
+    IdPSP_Time_Recording_Log   int not null primary key auto_increment,
+    Nombre			varchar(45) not null,
+    Description 		tinytext
 );
 
 
