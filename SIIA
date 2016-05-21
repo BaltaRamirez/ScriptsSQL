@@ -13,7 +13,7 @@ create table Estudiante (
 
 create table Nivel (
 	
-	idNivel 	int not null primary key auto_increment,
+	IdNivel 	int not null primary key auto_increment,
 	NumSemestre int,
 	Periodo		varchar(25) not null,
 	Promedio	decimal
@@ -22,7 +22,7 @@ create table Nivel (
 
 create table Materia (
 	
-	idMateria 		int not null primary key auto_increment,
+	IdMateria 		int not null primary key auto_increment,
 	Clave 			varchar(25) not null,
 	Nombre			varchar(25) not null,
 	Calificacion 	decimal
