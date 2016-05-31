@@ -1,2 +1,2 @@
 # ScriptsSQL
-Scripts de cómo crear base de datos del Personal Sotware Proccess.
+Scripts para la materia Sistemas de Administración de Datos en la Universidad de Guanajuato
